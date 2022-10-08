@@ -1,0 +1,97 @@
+#content {
+    max-width: 1600px;
+    text-align: center;
+    width: auto;
+    margin: 0px auto 0px auto;
+}
+#hero-msg h1, h4 {
+    text-align: center;
+}
+#hero {
+    text-align: center;
+}
+#hero-img {
+    width: 100%;
+}
+#background {
+    height: 725px;
+    background-color: bisque;
+}
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+}
+.button-box {
+    text-align: center;
+}
+.book {
+    text-decoration: none;
+    background-color: gray;
+}
+.msg {
+    background-color: gray;
+    color: white;
+}
+.home-grid {
+    text-align: center;
+}
+.card-img {
+    width: 400px;
+    height: 400px;
+}
+.mountains {
+    width: 700px;
+    height: 400px;
+}
+p a{
+    color: bisque;
+    text-decoration: none;
+}
+main a {
+    text-decoration: none;
+    background-color: bisque;
+    text-align: center;
+}
+header {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    background-color: rgb(62, 98, 62);
+}
+body {
+    background-color: rgb(248, 248, 243);
+}
+nav {
+    font-size: 1.2em;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+nav a:hover {
+    background-color: rgb(250, 241, 241);
+    text-align: center;
+    text-decoration: underline;
+}
+footer p {
+    font-size: 1.2em;
+    background-color: gray;
+}
+footer p a:hover {
+    background-color: rgb(52, 47, 47);
+    text-decoration: underline;
+}
+footer a {
+    text-align: center;
+    text-decoration: none;
+}
+footer {
+    margin: 0;
+    color: bisque;
+    text-decoration: none;
+    text-align: left;
+    background-color: gray;
+}
