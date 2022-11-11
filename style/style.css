@@ -89,7 +89,7 @@
     padding-bottom: 15px;
 }
 .home-grid {
-    text-align: none;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
