@@ -128,7 +128,7 @@ body {
     grid-template-areas: ". . home home . ."
       ". . . top . ."
       ". left left right right ."
-      "page2 page2 . . page3 page3";
+      "page3 page3 . . page2 page2";
   }
   .sitemap > div {
     text-align: center;
