@@ -29,6 +29,9 @@
 #hero-msg h4{
     color: white;
 }
+h3{
+    color: #64A6BD;
+}
 #background {
     height: 725px;
     background-color: bisque;
