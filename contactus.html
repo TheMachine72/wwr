@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link type="text/css" rel="stylesheet" href="style/style.css">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,27 +16,27 @@
             padding: 1em;
             border: 1px solid #ccc;
             border-radius: 1em;
-          }
+        }
           
-          ul {
+        ul {
             list-style: none;
             padding: 0;
             margin: 0;
-          }
+        }
           
-          form li + li {
+        form li + li {
             margin-top: 1em;
-          }
+        }
           
-          label {
+        label {
             /* Uniform size & alignment */
             display: inline-block;
             width: 90px;
             text-align: right;
-          }
+        }
           
-          input,
-          textarea {
+        input,
+        textarea {
             /* To make sure that all text fields have the same font settings
                By default, textareas have a monospace font */
             font: 1em sans-serif;
@@ -47,32 +47,32 @@
           
             /* Match form field borders */
             border: 1px solid #999;
-          }
+        }
           
-          input:focus,
-          textarea:focus {
+        input:focus,
+        textarea:focus {
             /* Additional highlight for focused elements */
             border-color: #000;
-          }
+        }
           
-          textarea {
+        textarea {
             /* Align multiline text fields with their labels */
             vertical-align: top;
           
             /* Provide space to type some text */
             height: 5em;
-          }
+        }
           
-          .button {
+        .button {
             /* Align buttons with the text fields */
             padding-left: 90px; /* same size as the label elements */
-          }
+        }
           
-          button {
+        button {
             /* This extra margin represent roughly the same space as the space
                between the labels and their text fields */
             margin-left: 0.5em;
-          }
+        }
     </style>
 </head>
 <header>
@@ -87,8 +87,9 @@
         </nav>
 </header>
 <body>
-<div id="feedback">
-    <main class="rapids-card">
+
+<main class="rapids-card">
+    <div id="feedback"></div>
         <form action="/my-handling-form-page" method="post">
             <ul>
               <li>
@@ -103,9 +104,12 @@
                 <label for="msg">Message:</label>
                 <textarea id="msg" name="user_message"></textarea>
               </li>
+              <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
             </ul>
         </form>
-    </main>
+</main>
 <footer>
     <p>Dry Oar &copy; 2022 - Gustavo Gimbatti</p>
     <p><a href="site-plan-rafting.html">Site Plan</a></p>
@@ -120,7 +124,6 @@
         <a href="https://instagram.com" target="_blank">
             <img src="images/instagram.png" alt="instagram icon" style="width: 64px;height: 64px;">
         </a>
-    </div>
 </footer>
     <script>
         // get the feedback div element so we can do something with it.
@@ -139,6 +142,6 @@
             document.body.classList.toggle('moveDown');
         });
     </script>
-</div>
+    </div>
 </body>
 </html>
